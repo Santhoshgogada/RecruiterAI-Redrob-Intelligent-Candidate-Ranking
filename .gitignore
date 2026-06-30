@@ -1,0 +1,10 @@
+# The real candidates.jsonl is ~487MB — far too large for git/GitHub and
+# unnecessary to commit. Place your own copy alongside app.py locally to
+# enable the "Real dataset sample" mode in the Streamlit demo.
+candidates.jsonl
+
+__pycache__/
+*.pyc
+.DS_Store
+venv/
+.streamlit/secrets.toml

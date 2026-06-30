@@ -1,0 +1,6 @@
+# RecruiterAI — Redrob AI Hackathon 2026
+# Zero model downloads. Zero API calls. Pure Python + these lightweight libs.
+numpy>=1.26.0
+python-dateutil>=2.8.0
+streamlit>=1.35.0
+pandas>=2.0.0
