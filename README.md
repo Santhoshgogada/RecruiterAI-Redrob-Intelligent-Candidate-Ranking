@@ -16,10 +16,6 @@ pip install -r requirements.txt
 # Rank the full 100K candidate pool (~15 seconds)
 python rank.py --candidates ./candidates.jsonl --out ./submission.csv
 
-# Validate output format (must pass before submission)
-python validate_submission.py submission.csv
-# → ✅ VALID — submission.csv passes all checks.
-
 # 3. Spin up the modern interactive live demo safely inside your environment
 python -m streamlit run app.py
 ```
